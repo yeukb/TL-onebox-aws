@@ -1,8 +1,5 @@
-# Ubuntu AMI locator
-# https://cloud-images.ubuntu.com/locator/ec2/
-
 resource "aws_instance" "onebox" {
-  ami                         = "ami-0f0b17182b1d50c14"
+  ami                         = var.ami_id
   instance_type               = var.vmSize
   key_name                    = var.aws_ssh_key
   monitoring                  = false

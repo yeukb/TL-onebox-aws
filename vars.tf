@@ -6,6 +6,8 @@ variable "vpc_name" { }
 
 variable "region" { }
 
+variable "ami_id" { }
+
 variable "adminUsername" { }
 
 variable "adminPassword" { }

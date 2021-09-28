@@ -4,6 +4,10 @@ aws_secret_key = "<aws_secret_key>"
 vpc_name = "OneBox"
 region = "ap-southeast-1"
 
+# Ubuntu AMI locator
+# https://cloud-images.ubuntu.com/locator/ec2/
+ami_id = "ami-0f0b17182b1d50c14"
+
 # Username & Password for Prisma Cloud Compute Console
 adminUsername = "<Console Username>"
 adminPassword = "<Console User Password>"
