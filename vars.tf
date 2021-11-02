@@ -6,8 +6,6 @@ variable "vpc_name" { }
 
 variable "region" { }
 
-variable "ami_id" { }
-
 variable "adminUsername" { }
 
 variable "adminPassword" { }
@@ -37,3 +35,7 @@ variable "linux_ip" {
 variable "twistlock_download_url" { }
 
 variable "license_key" { }
+
+variable "ubuntu_version" {
+  default = "20.04"
+}

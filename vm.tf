@@ -1,5 +1,5 @@
 resource "aws_instance" "onebox" {
-  ami                         = var.ami_id
+  ami                         = data.aws_ami.ubuntu.image_id
   instance_type               = var.vmSize
   key_name                    = var.aws_ssh_key
   monitoring                  = false
